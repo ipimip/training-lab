@@ -1,0 +1,54 @@
+FORMAT: 1A
+HOST: https://dev.westeurope.api.hip.red.cdtapps.com/ipimip/training-lab/living-room
+# Training Lab Living Room API
+
+The training lab Living room service is a simple API that is used for testing purposes during workshops.
+The API results is all static data and immutable.
+
+## Furniture collection [/v1/furnitures{?type}]
+
+### Query furniture  [GET]
+
++ Parameters
+<!-- Exercise 2: Add new query parameter -->
+    + type: Desk (string, required) - The type of the furniture item
+
++ Request (application/json;charset=UTF-8)
+
+    + Headers
+     
+            api-key: dummy_key_1
+
++ Response 200 (application/json;charset=UTF-8)
+
+    + Body
+    
+            {
+                "id": "a1b2c3d4e5f6",
+                "type": "Desk",
+                "name": "KULLABERG",
+                "price": 1500
+            }
+    
+### Create new Furniture item [POST]
+Create a new Furniture. Note that at this stage, this operation only return the input since it's only a static API with no database connected to it.
+
++ Request (application/json;charset=UTF-8)
+
+<!-- Exercise 4: Include furniture object in Request body -->
+                
+    + Headers
+    
+            api-key: dummy_key_1
+            
++ Response 201
+
+<!-- Exercise 4.1: Include furniture object in Response body -->
+
+<!-- Exercise 4.2: Include new request and response sections for the "un-happy" path -->
+
+<!-- Exercise 5: Add a new endpoint for Get By Id -->
+            
+# Data Structures
+
+<!-- Exercise 3: Add a new Furniture Data Structure below -->
