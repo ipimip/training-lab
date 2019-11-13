@@ -8,54 +8,54 @@ If you encounter any issues during the following exercises please ask one of the
 
 ## Table of Contents
 
-- [Apiary Hands-On Lab](#Apiary-Hands-On-Lab)
-  - [Table of Contents](#Table-of-Contents)
-  - [Setup](#Setup)
-    - [Required Tools](#Required-Tools)
-    - [Useful URLs](#Useful-URLs)
-  - [Section 1 - Introduction to Apiary](#Section-1---Introduction-to-Apiary)
-    - [Documentation Tab](#Documentation-Tab)
-      - [Trying a Resource](#Trying-a-Resource)
-    - [Exercise 1: Mock Server](#Exercise-1-Mock-Server)
-      - [Exercise 1 - Required Tools](#Exercise-1---Required-Tools)
-      - [Exercise 1 - Task](#Exercise-1---Task)
-      - [Exercise 1 - Success Criteria](#Exercise-1---Success-Criteria)
-  - [Section 2 - The Editor Tab](#Section-2---The-Editor-Tab)
-    - [Document Format and Host](#Document-Format-and-Host)
-    - [Document Information](#Document-Information)
-    - [Logical Groups](#Logical-Groups)
-    - [Specific Requests](#Specific-Requests)
-      - [Specific Request Parameters](#Specific-Request-Parameters)
-        - [Query Parameters](#Query-Parameters)
-        - [Path Parameters](#Path-Parameters)
-        - [Parameters](#Parameters)
-    - [Exercise 2: Adding New Parameters](#Exercise-2-Adding-New-Parameters)
-      - [Exercise 2 - Required Tools](#Exercise-2---Required-Tools)
-      - [Exercise 2 - Task](#Exercise-2---Task)
-      - [Exercise 2 - Success Criteria](#Exercise-2---Success-Criteria)
-  - [Section 3 - Data Structures](#Section-3---Data-Structures)
-    - [Simple Objects](#Simple-Objects)
-    - [Complex Objects](#Complex-Objects)
-    - [Exercise 3: Adding a Data Structure](#Exercise-3-Adding-a-Data-Structure)
-      - [Exercise 3 - Required Tools](#Exercise-3---Required-Tools)
-      - [Exercise 3 - Task](#Exercise-3---Task)
-      - [Exercise 3 - Success Criteria](#Exercise-3---Success-Criteria)
-  - [Section 4 - Request and Response Bodies](#Section-4---Request-and-Response-Bodies)
-    - [Specific Request Bodies](#Specific-Request-Bodies)
-    - [Specific Response Bodies](#Specific-Response-Bodies)
-    - [Exercise 4.1: Modifying Request & Response Bodies](#Exercise-41-Modifying-Request--Response-Bodies)
-      - [Exercise 4.1 - Required Tools](#Exercise-41---Required-Tools)
-      - [Exercise 4.1 - Task](#Exercise-41---Task)
-      - [Exercise 4.1 - Success Criteria](#Exercise-41---Success-Criteria)
-    - [Exercise 4.2: Adding Request and Response Bodies](#Exercise-42-Adding-Request-and-Response-Bodies)
-      - [Exercise 4.2 - Required Tools](#Exercise-42---Required-Tools)
-      - [Exercise 4.2 - Task](#Exercise-42---Task)
-      - [Exercise 4.2 - Success Criteria](#Exercise-42---Success-Criteria)
-  - [Section 5 - Tying Everything Together](#Section-5---Tying-Everything-Together)
-    - [Exercise 5: Adding New Endpoints](#Exercise-5-Adding-New-Endpoints)
-      - [Exercise 5 - Required Tools](#Exercise-5---Required-Tools)
-      - [Exercise 5 - Task](#Exercise-5---Task)
-      - [Exercise 5 - Success Criteria](#Exercise-5---Success-Criteria)
+- [Apiary Hands-On Lab](#apiary-hands-on-lab)
+  - [Table of Contents](#table-of-contents)
+  - [Setup](#setup)
+    - [Required Tools](#required-tools)
+    - [Useful URLs](#useful-urls)
+  - [Section 1 - Introduction to Apiary](#section-1---introduction-to-apiary)
+    - [Documentation Tab](#documentation-tab)
+      - [Trying a Resource](#trying-a-resource)
+    - [Exercise 1: Mock Server](#exercise-1-mock-server)
+      - [Exercise 1 - Required Tools](#exercise-1---required-tools)
+      - [Exercise 1 - Task](#exercise-1---task)
+      - [Exercise 1 - Success Criteria](#exercise-1---success-criteria)
+  - [Section 2 - The Editor Tab](#section-2---the-editor-tab)
+    - [Document Format and Host](#document-format-and-host)
+    - [Document Information](#document-information)
+    - [Logical Groups](#logical-groups)
+    - [Specific Requests](#specific-requests)
+      - [Specific Request Parameters](#specific-request-parameters)
+        - [Query Parameters](#query-parameters)
+        - [Path Parameters](#path-parameters)
+        - [Parameters](#parameters)
+    - [Exercise 2: Adding New Parameters](#exercise-2-adding-new-parameters)
+      - [Exercise 2 - Required Tools](#exercise-2---required-tools)
+      - [Exercise 2 - Task](#exercise-2---task)
+      - [Exercise 2 - Success Criteria](#exercise-2---success-criteria)
+  - [Section 3 - Data Structures](#section-3---data-structures)
+    - [Simple Objects](#simple-objects)
+    - [Complex Objects](#complex-objects)
+    - [Exercise 3: Adding a Data Structure](#exercise-3-adding-a-data-structure)
+      - [Exercise 3 - Required Tools](#exercise-3---required-tools)
+      - [Exercise 3 - Task](#exercise-3---task)
+      - [Exercise 3 - Success Criteria](#exercise-3---success-criteria)
+  - [Section 4 - Request and Response Bodies](#section-4---request-and-response-bodies)
+    - [Specific Request Bodies](#specific-request-bodies)
+    - [Specific Response Bodies](#specific-response-bodies)
+    - [Exercise 4.1: Modifying Request & Response Bodies](#exercise-41-modifying-request--response-bodies)
+      - [Exercise 4.1 - Required Tools](#exercise-41---required-tools)
+      - [Exercise 4.1 - Task](#exercise-41---task)
+      - [Exercise 4.1 - Success Criteria](#exercise-41---success-criteria)
+    - [Exercise 4.2: Adding Request and Response Bodies](#exercise-42-adding-request-and-response-bodies)
+      - [Exercise 4.2 - Required Tools](#exercise-42---required-tools)
+      - [Exercise 4.2 - Task](#exercise-42---task)
+      - [Exercise 4.2 - Success Criteria](#exercise-42---success-criteria)
+  - [Section 5 - Tying Everything Together](#section-5---tying-everything-together)
+    - [Exercise 5: Adding New Endpoints](#exercise-5-adding-new-endpoints)
+      - [Exercise 5 - Required Tools](#exercise-5---required-tools)
+      - [Exercise 5 - Task](#exercise-5---task)
+      - [Exercise 5 - Success Criteria](#exercise-5---success-criteria)
 
 ## Setup
 
@@ -81,6 +81,10 @@ For the following exercises, the following tools are required:
 - [Living Room Service](https://traininglablivingroomservice.docs.apiary.io/)
 - [Storage Service](https://traininglabstorageservice.docs.apiary.io/)
 - [Office Space Service](https://traininglabofficespaceservice.docs.apiary.io/)
+- [Balcony Service](https://traininglabbalconyapi.docs.apiary.io/)
+- [Bedroom Service](https://traininglabbedroomservice.docs.apiary.io/)
+- [Dining Room Service](https://traininglabdiningroomapi.docs.apiary.io/)
+- [Lobby Service](https://traininglablobbyapi.docs.apiary.io/)
 
 ## Section 1 - Introduction to Apiary
 
@@ -250,6 +254,10 @@ This exercise will introduce you to editing the Apiary document by adding new qu
 - [Living Room Service](https://traininglablivingroomservice.docs.apiary.io/)
 - [Storage Service](https://traininglabstorageservice.docs.apiary.io/)
 - [Office Space Service](https://traininglabofficespaceservice.docs.apiary.io/)
+- [Balcony Service](https://traininglabbalconyapi.docs.apiary.io/)
+- [Bedroom Service](https://traininglabbedroomservice.docs.apiary.io/)
+- [Dining Room Service](https://traininglabdiningroomapi.docs.apiary.io/)
+- [Lobby Service](https://traininglablobbyapi.docs.apiary.io/)
 
 > _Note: Refer back to the [Specific Request Parameters Section](#specific-request-parameters) for more information on Apiary parameters_
 
@@ -270,9 +278,8 @@ Currently the `Query` resource allows you to search for a particular furniture i
 - [ ] Familiar with the Apiary Editor tab
 - [ ] Remove comments related to this exercise
 
-
-
 ## Section 3 - Data Structures
+
 The following exercises are using the MSON (Markdown Syntax for Object Notation) Syntax.
 
 MSON is a plain-text, human readable way of documenting data structures and therefore is a great choice if you're new to API Design as it compliments your existing business knowledge without becoming too technical.
@@ -449,7 +456,7 @@ Sometimes, you want to include multiple responses for a single request, this is 
 Additionally you are able to specify any additional headers to be sent on the response, to add custom headers in the Apiary document they should be indented by **twelve spaces** or **three TAB** characters from the `+ Response` heading and the headers are denoted using the `Headers` field.
 
 > ![alt text][apiary_editor_response_headers]
-> 
+
 ### Exercise 4.1: Modifying Request & Response Bodies
 
 This exercise will introduce you to the Request and Response sections of the Apiary document.
@@ -498,6 +505,7 @@ Based on this requirement, your Request body should be missing the `id` and `nam
 - [ ] Remove comments related to this exercise
 
 ## Section 5 - Tying Everything Together
+
 ### Exercise 5: Adding New Endpoints
 
 In this final exercise, you will combine your learnings from the previous set of exercises in order to add a whole new endpoint to the Apiary document that includes request/response bodies with a new data structure.
@@ -533,7 +541,6 @@ This new endpoint should include a Path Parameter for the ID variable along with
 <!-- ### Q: Are you able to add dynamic responses based on the query/path parameters?
 
   A: The simple answer is no. Arguably, from a consumers perspective this is not required so long as the mock response contains an example showing every available field. -->
-
 
 <!-- - [TODO](#todo) -->
 <!-- - [TODO 2](#todo-2) -->
